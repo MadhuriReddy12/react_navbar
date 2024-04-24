@@ -1,0 +1,40 @@
+/* components/Form.css */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adjust the gap between textboxes */
+    margin: 20px; /* Add some margin for spacing around the form */
+  }
+  
+  .textbox {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Add styles for focus/hover effects */
+  .textbox:focus,
+  .textbox:hover {
+    border-color: #63d471; /* Change color on focus/hover */
+    box-shadow: 0 0 5px rgba(99, 212, 113, 0.7); /* Add a subtle box shadow */
+  }
+  
+  button {
+    width: 100%; /* Make the button take full width */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #63d471;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4cae4c; /* Darker color on hover */
+  }
+  
